@@ -1,0 +1,56 @@
+{
+    "competitors": {
+        "openai": {
+            "name": "OpenAI",
+            "rss_url": "https://openai.com/blog/rss.xml",
+            "blog_url": "https://openai.com/news/",
+            "api_url": "https://openai.com/api/posts",
+            "selectors": {
+                "title": "h1, .post-title, .entry-title",
+                "content": ".post-content, .entry-content, article p",
+                "date": "time, .date, .published-date, [datetime]"
+            }
+        },
+        "google_ai": {
+            "name": "Google AI",
+            "rss_url": "https://blog.google/products/ai/rss/",
+            "blog_url": "https://blog.google/technology/ai/",
+            "selectors": {
+                "title": "h1, h2, .article-title, .post-title",
+                "content": ".article-content, .post-body, .article p",
+                "date": "time, .publish-date, .date, [datetime]"
+            }
+        },
+        "microsoft_ai": {
+            "name": "Microsoft AI",
+            "rss_url": "https://blogs.microsoft.com/ai/feed/",
+            "blog_url": "https://blogs.microsoft.com/ai/",
+            "selectors": {
+                "title": "h1, h2, .entry-title, .post-title",
+                "content": ".entry-content, .post-content, article p",
+                "date": "time, .entry-date, .date, [datetime]"
+            }
+        },
+        "anthropic": {
+            "name": "Anthropic",
+            "blog_url": "https://www.anthropic.com/news",
+            "news_url": "https://www.anthropic.com/research",
+            "selectors": {
+                "title": "h1, h2, .title, [data-testid*='title']",
+                "content": ".content, article, p",
+                "date": "time, .date, [datetime], [data-testid*='date']"
+            }
+        }
+    },
+    "scraping": {
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "delay_between_requests": 2,
+        "timeout": 30,
+        "max_articles_per_site": 10
+    },
+    "reports": {
+        "output_format": "markdown",
+        "include_summaries": true,
+        "date_format": "%Y-%m-%d"
+    }
+}

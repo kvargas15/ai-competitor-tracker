@@ -1,0 +1,51 @@
+2025-09-15 11:41:43,447 - INFO - Starting AI competitor tracking...
+2025-09-15 11:41:43,447 - INFO - Scraping OpenAI...
+2025-09-15 11:41:43,543 - ERROR - Error accessing https://openai.com/blog/: 403 Client Error: Forbidden for url: https://openai.com/blog/
+2025-09-15 11:41:45,670 - ERROR - Error accessing https://openai.com/news/: 403 Client Error: Forbidden for url: https://openai.com/news/
+2025-09-15 11:41:47,677 - INFO - Found 0 articles from openai
+2025-09-15 11:41:47,678 - INFO - Scraping Google AI...
+2025-09-15 11:42:01,009 - ERROR - Error accessing https://ai.google/discover/: 404 Client Error: Not Found for url: https://ai.google/discover/
+2025-09-15 11:42:03,015 - INFO - Found 0 articles from google_ai
+2025-09-15 11:42:03,015 - INFO - Scraping Microsoft AI...
+2025-09-15 11:42:03,144 - ERROR - Error accessing https://blogs.microsoft.com/ai/: 403 Client Error: Forbidden for url: https://blogs.microsoft.com/ai/
+2025-09-15 11:42:07,938 - INFO - Found 0 articles from microsoft_ai
+2025-09-15 11:42:07,939 - INFO - Scraping Anthropic...
+2025-09-15 11:42:26,274 - INFO - Found 6 articles from anthropic
+2025-09-15 11:42:26,276 - INFO - Report generated: reports/ai_competitor_report_2025-09-15.md
+2025-09-15 11:42:26,276 - INFO - Scraping complete. Total articles: 6
+2025-09-15 11:42:26,276 - INFO - Report saved to: reports/ai_competitor_report_2025-09-15.md
+2025-09-15 11:44:00,734 - INFO - Starting AI competitor tracking...
+2025-09-15 11:44:00,734 - INFO - Scraping OpenAI...
+2025-09-15 11:44:00,845 - ERROR - Error accessing https://openai.com/blog/: 403 Client Error: Forbidden for url: https://openai.com/blog/
+2025-09-15 11:44:02,951 - ERROR - Error accessing https://openai.com/news/: 403 Client Error: Forbidden for url: https://openai.com/news/
+2025-09-15 11:44:04,959 - INFO - Found 0 articles from openai
+2025-09-15 11:44:04,959 - INFO - Scraping Google AI...
+2025-09-15 11:44:18,263 - ERROR - Error accessing https://ai.google/discover/: 404 Client Error: Not Found for url: https://ai.google/discover/
+2025-09-15 11:44:20,266 - INFO - Found 0 articles from google_ai
+2025-09-15 11:44:20,267 - INFO - Scraping Microsoft AI...
+2025-09-15 11:44:20,368 - ERROR - Error accessing https://blogs.microsoft.com/ai/: 403 Client Error: Forbidden for url: https://blogs.microsoft.com/ai/
+2025-09-15 11:44:25,031 - INFO - Found 0 articles from microsoft_ai
+2025-09-15 11:44:25,032 - INFO - Scraping Anthropic...
+2025-09-15 11:44:43,714 - INFO - Found 6 articles from anthropic
+2025-09-15 11:44:43,717 - INFO - Report generated: reports/ai_competitor_report_2025-09-15.md
+2025-09-15 11:44:43,717 - INFO - Scraping complete. Total articles: 6
+2025-09-15 11:44:43,718 - INFO - Report saved to: reports/ai_competitor_report_2025-09-15.md
+2025-09-15 11:47:09,806 - INFO - Starting AI competitor tracking...
+2025-09-15 11:47:09,806 - INFO - Scraping OpenAI...
+2025-09-15 11:47:09,806 - INFO - Fetching RSS feed: https://openai.com/blog/rss.xml
+2025-09-15 11:47:10,114 - INFO - Found 10 articles from RSS feed
+2025-09-15 11:47:10,115 - INFO - Found 10 articles from openai
+2025-09-15 11:47:10,115 - INFO - Scraping Google AI...
+2025-09-15 11:47:10,115 - INFO - Fetching RSS feed: https://blog.google/products/ai/rss/
+2025-09-15 11:47:10,551 - WARNING - RSS feed may have issues: https://blog.google/products/ai/rss/
+2025-09-15 11:47:10,552 - INFO - Found 0 articles from RSS feed
+2025-09-15 11:47:23,757 - INFO - Found 0 articles from google_ai
+2025-09-15 11:47:23,757 - INFO - Scraping Microsoft AI...
+2025-09-15 11:47:23,757 - INFO - Fetching RSS feed: https://blogs.microsoft.com/ai/feed/
+2025-09-15 11:47:23,947 - INFO - Found 10 articles from RSS feed
+2025-09-15 11:47:23,948 - INFO - Found 0 articles from microsoft_ai
+2025-09-15 11:47:23,948 - INFO - Scraping Anthropic...
+2025-09-15 11:47:42,939 - INFO - Found 6 articles from anthropic
+2025-09-15 11:47:42,941 - INFO - Report generated: reports/ai_competitor_report_2025-09-15.md
+2025-09-15 11:47:42,942 - INFO - Scraping complete. Total articles: 16
+2025-09-15 11:47:42,942 - INFO - Report saved to: reports/ai_competitor_report_2025-09-15.md
